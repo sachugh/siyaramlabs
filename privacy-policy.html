@@ -162,7 +162,7 @@
 <main class="container">
 
     <div class="updated">
-        <strong>Last Updated:</strong> August 17, 2026
+        <strong>Last Updated:</strong> August 29, 2026
     </div>
 
     <p>
@@ -187,7 +187,9 @@
         <ul>
             <li>No account is required.</li>
             <li>No third-party advertising is currently used.</li>
-            <li>No third-party analytics or behavioral tracking is currently used.</li>
+            <li>Google Firebase Analytics is used for limited app-usage measurement.</li>
+            <li>Google Firebase Crashlytics is used for crash, non-fatal error, and app stability diagnostics.</li>
+            <li>We do not use Firebase to send your mantra text, custom mantra content, chant history/counts, audio files, or backup contents.</li>
             <li>Your devotional practice information is stored locally on your device.</li>
             <li>Backup and restore is initiated and controlled by you.</li>
         </ul>
@@ -195,19 +197,9 @@
 
 
     <h2>1. Information We Collect</h2>
-
-    <p>
-        Naam Simar does not currently collect personal information or
-        transmit your devotional practice data to SiyaRam Labs or servers
-        operated by us.
-    </p>
-
-    <p>
-        The App does not currently require you to create an account or
-        provide information such as your name, phone number, postal address,
-        or date of birth.
-    </p>
-
+    <p>Naam Simar does not require you to create an account or provide information such as your name, phone number, postal address, or date of birth.</p>
+    <p>Your devotional practice information is primarily stored locally on your device. However, the App uses Google Firebase Analytics and Firebase Crashlytics. These services may process limited app-usage, installation, device, application, crash, and diagnostic information as described below.</p>
+    <p>Through our own analytics and crash-reporting instrumentation, we intentionally avoid sending mantra text, custom mantra content, chant history or counts, audio files or file paths, backup contents or locations, reminder times, or other free-form devotional content to Firebase.</p>
 
     <h2>2. Information Stored on Your Device</h2>
 
@@ -231,8 +223,7 @@
     </ul>
 
     <p>
-        This information is used to provide the App's functionality and is
-        not transmitted by Naam Simar to SiyaRam Labs.
+        This information is used to provide the App's functionality and remains primarily on your device. The App does not intentionally send the contents of this locally stored devotional practice information to Firebase through our custom analytics or crash-reporting events.
     </p>
 
 
@@ -318,35 +309,24 @@
     </p>
 
 
-    <h2>7. Analytics and Tracking</h2>
+    <h2>7. Analytics and App Usage Measurement</h2>
+    <p>Naam Simar uses <strong>Google Analytics for Firebase</strong> to understand limited, aggregate patterns of how App features are used and to help us improve the App.</p>
+    <p>The App may record selected product-usage events such as completion of onboarding, starting a Simran session, completing a mala, using auto chant, creating or deleting a custom mantra, changing selected settings, completing a user-initiated backup or restore, and opening categories of devotional content.</p>
+    <p>Parameters attached to these events are deliberately limited. For example, the App may record whether a mantra is built-in or custom, whether chanting is manual or automatic, whether custom audio is present, or the general type of devotional content opened.</p>
+    <p>We intentionally do not send mantra names or text, custom mantra content, individual chant taps, chant counts, audio file names or paths, reminder times, backup file locations or contents, or devotional text bodies as our custom Firebase Analytics parameters.</p>
+    <p>The Firebase Analytics SDK may also automatically process certain technical, app, device, installation, and usage information in accordance with Google's Firebase and Google Analytics practices. We do not use Naam Simar's Analytics implementation to build our own advertising profile from your devotional practice data or to sell your information.</p>
 
-    <p>
-        Naam Simar <strong>does not currently use third-party analytics
-        or behavioral tracking services</strong>.
-    </p>
+    <h2>9. Crash Reporting and Diagnostics</h2>
+    <p>Naam Simar uses <strong>Google Firebase Crashlytics</strong> to help identify crashes, non-fatal errors, Application Not Responding (ANR) events, and other stability problems.</p>
+    <p>Crashlytics may automatically process crash stack traces, relevant application state, relevant device metadata, installation identifiers, app version information, and other technical diagnostic information needed to provide crash-reporting and app-stability services.</p>
+    <p>Naam Simar may also send selected diagnostic breadcrumbs and developer-defined non-fatal error information to help us understand what occurred before a failure. Our logging policy is designed to avoid personal information, authentication secrets, mantra text, custom mantra content, audio paths, backup contents, and tap-by-tap chanting information.</p>
 
-    <p>
-        We do not currently use your devotional practice information to
-        build advertising profiles or track you across other apps or
-        services.
-    </p>
+    <h2>9. Internet and External Data Transmission</h2>
+    <p>Naam Simar remains designed primarily around locally stored devotional practice data and can provide its core chanting features without a SiyaRam Labs account or cloud account.</p>
+    <p>Limited technical, usage, crash, and diagnostic information may be transmitted to Google through Firebase Analytics and Firebase Crashlytics when those services operate. This transmission is used for app-usage measurement, troubleshooting, crash reporting, and improving App reliability.</p>
+    <p>Devotional practice history, chant counts, custom mantra text, custom audio files, and backup contents are not intentionally uploaded to a SiyaRam Labs server or sent as our custom Firebase Analytics/Crashlytics data.</p>
 
-
-    <h2>8. Internet and External Data Transmission</h2>
-
-    <p>
-        The current version of Naam Simar is designed primarily as an
-        offline application.
-    </p>
-
-    <p>
-        Devotional practice information, history, statistics, custom
-        mantras, and related settings are processed locally rather than
-        being transmitted to a SiyaRam Labs server.
-    </p>
-
-
-    <h2>9. Permissions and Device Capabilities</h2>
+    <h2>10. Permissions and Device Capabilities</h2>
 
     <p>
         Naam Simar may request or use Android permissions and system
@@ -375,7 +355,7 @@
     </p>
 
 
-    <h2>10. Day/Night Theme and Localization</h2>
+    <h2>11. Day/Night Theme and Localization</h2>
 
     <p>
         Naam Simar may store your theme, language, and other display
@@ -387,35 +367,16 @@
     </p>
 
 
-    <h2>11. Devotional Content</h2>
+    <h2>12. Devotional Content</h2>
+    <p>Naam Simar provides devotional features and content such as Naam Jaap, mantras, Paath, Aarti, Vrat, Katha, and related spiritual material.</p>
+    <p>The App may record a general category of devotional content opened for product analytics. We do not intentionally send the devotional text body, your custom mantra text, or individual chanting content as our custom analytics parameters.</p>
 
-    <p>
-        Naam Simar provides devotional features and content such as
-        Naam Jaap, mantras, Paath, Aarti, Vrat, Katha, and related
-        spiritual material.
-    </p>
+    <h2>13. Data Sharing and Sale</h2>
+    <p>SiyaRam Labs does <strong>not sell your personal information</strong>.</p>
+    <p>Limited technical, analytics, and diagnostic information is processed by Google as our third-party service provider through Firebase Analytics and Firebase Crashlytics for the purposes described in this Policy.</p>
+    <p>We do not intentionally share your locally stored devotional practice history, chant counts, custom mantra text, custom audio files, or backup contents with advertisers.</p>
 
-    <p>
-        Your interaction with this content is not currently transmitted to
-        SiyaRam Labs for advertising or analytics purposes.
-    </p>
-
-
-    <h2>12. Data Sharing and Sale</h2>
-
-    <p>
-        SiyaRam Labs does <strong>not currently sell your personal
-        information</strong>.
-    </p>
-
-    <p>
-        Naam Simar does not currently share your devotional practice
-        history, chant counts, custom mantras, or similar locally stored
-        practice information with advertisers or analytics companies.
-    </p>
-
-
-    <h2>13. Data Retention and Deletion</h2>
+    <h2>14. Data Retention and Deletion</h2>
 
     <p>
         Practice information is stored locally on your device.
@@ -437,9 +398,10 @@
         Backup files created by you are under your control and must be
         deleted separately from wherever you chose to save them.
     </p>
+    <p>Information processed by Firebase Analytics and Firebase Crashlytics is subject to Google's applicable retention and deletion practices. Removing the App from your device does not necessarily immediately delete information that was previously transmitted to and retained by those services.</p>
 
 
-    <h2>14. Children's Privacy</h2>
+    <h2>15. Children's Privacy</h2>
 
     <p>
         Naam Simar is a general devotional application and is not designed
@@ -447,10 +409,7 @@
     </p>
 
     <p>
-        Because the current App does not require account registration and
-        does not intentionally collect personal information through our
-        servers, we do not knowingly collect children's personal
-        information through Naam Simar.
+        The App does not require account registration and is not intended to ask children to provide names, contact details, or other free-form personal information. Limited technical, analytics, and diagnostic information may nevertheless be processed through Firebase as described in this Policy.
     </p>
 
     <p>
@@ -459,7 +418,7 @@
     </p>
 
 
-    <h2>15. Security</h2>
+    <h2>16. Security</h2>
 
     <p>
         We design Naam Simar to minimize unnecessary collection and
@@ -474,22 +433,16 @@
     </p>
 
 
-    <h2>16. Third-Party Services</h2>
+    <h2>17. Third-Party Services</h2>
+    <p>Naam Simar currently uses the following Google Firebase services:</p>
+    <ul>
+        <li><strong>Google Analytics for Firebase</strong> — used for limited app-usage measurement and product improvement.</li>
+        <li><strong>Firebase Crashlytics</strong> — used for crash, non-fatal error, ANR, and app-stability diagnostics.</li>
+    </ul>
+    <p>Information processed through these services is handled by Google according to Google's applicable terms and privacy practices.</p>
+    <p>Your Android device and services you independently choose to use, such as a file-storage provider selected when saving a backup, may also process information according to their own terms and privacy policies. Such third-party services are outside the direct control of SiyaRam Labs.</p>
 
-    <p>
-        The current version of Naam Simar does not use third-party
-        advertising or analytics services.
-    </p>
-
-    <p>
-        Your Android device and services you independently choose to use,
-        such as a file-storage provider selected when saving a backup,
-        may process information according to their own terms and privacy
-        policies. Such services are outside the control of SiyaRam Labs.
-    </p>
-
-
-    <h2>17. Future Changes to App Features</h2>
+    <h2>18. Future Changes to App Features</h2>
 
     <p>
         Naam Simar may evolve over time.
@@ -498,12 +451,12 @@
     <p>
         If we introduce features that materially change how information is
         collected, transmitted, shared, or processed, such as cloud
-        synchronization, analytics, or advertising, we will update this
+        synchronization, advertising, or materially different analytics, we will update this
         Privacy Policy and applicable app-store disclosures as required.
     </p>
 
 
-    <h2>18. Changes to This Privacy Policy</h2>
+    <h2>19. Changes to This Privacy Policy</h2>
 
     <p>
         We may update this Privacy Policy when Naam Simar's features,
@@ -521,7 +474,7 @@
 
 
     <section class="contact">
-        <h2>19. Contact Us</h2>
+        <h2>20. Contact Us</h2>
 
         <p>
             If you have questions or concerns regarding this Privacy Policy
@@ -533,7 +486,7 @@
             Developer of <strong>Naam Simar – Digital Naam Jaap</strong><br>
             Email:
             <a href="mailto:siyaramlabs@gmail.com">
-                siyaramlabs@gmail.com
+                support.siyaramlabs@gmail.com
             </a>
         </p>
     </section>
